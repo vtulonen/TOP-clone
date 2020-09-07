@@ -9,18 +9,23 @@
 // Example css for each column to visualize better
 
 // Remove for your project
-div[class^="col-"] {
-  border: 1px solid gray;
-  text-align: center;
-  padding: 1rem 0;
-  background: lightblue;
-}
+// div[class^="col-"] {
+//   border: 1px solid gray;
+//   text-align: center;
+//   padding: 1rem 0;
+//   background: lightblue;
+// }s
 
 // Center elements with set widths and margins
 .container {
   width: calc(100% - $container-margin);
   max-width: $container-max-width;
   margin: 0 auto;
+}
+
+.container-full {
+  width: 100%;
+  max-width: 100vw;
 }
 
 .grid {
@@ -64,4 +69,8 @@ blockquote {
   margin-left: 1rem;
   font-size: 2.2rem;
 }
+
+
+
+// Framework ends //
 

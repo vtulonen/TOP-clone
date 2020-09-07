@@ -1,3 +1,4 @@
+@import 'config';
 
 // set grid span property to all .col- classes from 1 to 12
 @for $i from 1 through $columns {
