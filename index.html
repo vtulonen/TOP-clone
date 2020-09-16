@@ -31,27 +31,29 @@
   </header>
 
   <main class="container grid">
-    <h1 class="col-12">My Dashboard</h1>
+    <h1 class="col-12 text-center title">My Dashboard</h1>
     <div class="card col-12">
-      <img src="" alt="Profile-logo">
+      <img class="card__profile-img" src="/images/user-logo.png" alt="Profile-logo">
       <span class="card__title">Vili Tulonen</span>
-      <span class="card__text">My goal</span>
+      <span class="card__text">My goal is to be the next best friendly neighbourhood web develper!</span>
     </div>
 
-    <div class="col-12 skills-header">
-      <h2 class="skills-header__title">Skills Progress</h2>
+    <div class="col-12 skills-header text-center">
+      <h4 class="skills-header__title">Skills Progress</h4>
       <p class="skills-header__content">If you're new to web development, take the following courses in order. Otherwise feel free to start wherever interests you the most.</p>
     </div>
 
-    <div class="skill">
-      <img src="images/webdev101.svg" alt="">
-      <div class="skill__details">
-        <h3 class="skill__title">Web Development 101</h3>
-        <span class="skill__sub-title">32 LESSONS</span>
-      </div>
-      <button class="btn start">Start</button>
+    <div class="col-12 skill">
+      
+        <img class="skill__img" src="images/webdev101.svg" alt="">
+        <div class="skill__details">
+          <h3 class="skill__title">Web Development 101</h3>
+          <span class="skill__sub-title">32 LESSONS</span>
+        </div>
+      
+      <a class="skill__btn btn btn--primary">Start</a>
     </div>
-    <p>You are currently enrolled in the Full Stack Ruby on Rails track. To view all available tracks click here</p>
+    <p class="col-12 text-center">You are currently enrolled in the Full Stack Ruby on Rails track. To view all available tracks click here</p>
   </main>
 
   <div class="bottom-cta">

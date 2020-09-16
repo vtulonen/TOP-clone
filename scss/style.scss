@@ -44,9 +44,10 @@
 // Typography
 
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-stack;
   font-size: 62.5%;
   font-weight: 300;
+  color: $dark;
 }
 
 h1 { font-size: 4.6rem;}
@@ -73,4 +74,132 @@ blockquote {
 
 
 // Framework ends //
+
+
+.title {
+  color:$secondary;
+  margin-bottom: 3rem;
+  font-weight: 300;
+  font-size: 3.25rem;
+  letter-spacing: 0.6px;
+}
+//
+// Cards
+//
+
+.card {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 5px 16px 0 rgba(0,0,0,0.1);
+  background-color: #fff;
+  padding: 40px 60px;
+  margin-bottom: 6rem;
+
+
+  .card__profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .card__title {
+    font-size: 2.5rem;
+  }
+
+  .card__text {
+    max-width: 30%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: $gray;
+  }
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+
+//
+// Skills section
+//
+
+.skills-header__title {
+  color: $gray-dark;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.skills-header__content {
+  margin-bottom: 8rem;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: $gray;
+  
+}
+
+.skill {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+
+  .skill__img {
+    width: 110px;
+    height: 110px;
+    margin-right: 2rem;
+  }
+
+  .skill__details {
+    color: $gray-dark;
+
+    
+    .skill__title {
+      font-weight: bold;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .skill__btn {
+    margin-left: auto;
+  }
+}
+
+//
+// Buttons
+//
+
+.btn {
+  border-radius: 0.2em;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
+  color: #fff;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  padding: 2rem 5.5rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
+
+.btn--primary {
+  background-color: $primary;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+//
+// Typography
+//
 
