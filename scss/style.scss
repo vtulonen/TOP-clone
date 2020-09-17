@@ -76,6 +76,56 @@ blockquote {
 // Framework ends //
 
 
+//
+// Header
+//
+
+header {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0 5rem;
+  padding: 0 160px;
+  // Nav
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    color:$gray-dark;
+    font-size: 1.8em;
+    font-weight: bold;
+    .nav-link {
+      margin-right: 1em;
+    }
+
+    .nav-drop {
+      padding-right: 1em;
+      margin-right: 1em;
+      border-right: solid 1px;
+    }
+    .avatar {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      
+    }
+  }
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo__text {
+  font-family: norseBold;
+  font-weight: bold;
+  font-size: 3em;
+  color: $secondary;
+  margin-left: 1em;
+}
+
+//
+// Main section
+//
 .title {
   color:$secondary;
   margin-bottom: 3rem;
