@@ -14,11 +14,11 @@
 //   text-align: center;
 //   padding: 1rem 0;
 //   background: lightblue;
-// }s
+// }
 
 // Center elements with set widths and margins
 .container {
-  width: calc(100% - $container-margin);
+  width: calc(100% - #{$container-margin});
   max-width: $container-max-width;
   margin: 0 auto;
 }
@@ -187,7 +187,7 @@ header {
 .skills-header__content {
   margin-bottom: 8rem;
   font-size: 1.8rem;
-  line-height: 3rem;
+  line-height: 3.0rem;
   color: $gray;
   
 }
@@ -317,5 +317,18 @@ footer {
     font-size: 3rem;
     color: $secondary;
     padding: 0 1rem;
+
+    &:hover {
+      color: $dark;
+      cursor: pointer;
+    }
   }
 }
+
+li {
+  a:hover {
+    color: $dark;
+    cursor: pointer;
+  }
+}
+
