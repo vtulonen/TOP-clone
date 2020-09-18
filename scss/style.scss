@@ -59,6 +59,7 @@ h6 { font-size: 1.6rem;}
 
 p {
   font-size: 1.6rem;
+  color: $gray;
 }
 
 blockquote {
@@ -222,6 +223,36 @@ header {
   }
 }
 
+.current {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+//
+// Cta section
+//
+
+.bottom-cta {
+  text-align: center;
+  padding: 5em 2.5em;
+  color: $gray;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgb(236, 236, 236) 100%);
+
+  &__heading {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+  }
+
+  &__sub-heading {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+  }
+  
+
+  
+}
+
 //
 // Buttons
 //
@@ -243,6 +274,10 @@ header {
 
 .btn--primary {
   background-color: $primary;
+}
+
+.btn--secondary {
+  background-color: $secondary;
 }
 
 .btn:hover {
