@@ -285,6 +285,37 @@ header {
 }
 
 //
-// Typography
+// Footer
 //
 
+footer {
+  height: 300px;
+  place-items: center;
+  
+
+  .footer-links {
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: $gray;
+    font-weight: bold;
+    
+   
+  }
+
+  .footer-social {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .fab {
+    font-size: 3rem;
+    color: $secondary;
+    padding: 0 1rem;
+  }
+}
